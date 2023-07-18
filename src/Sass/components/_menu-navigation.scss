@@ -1,0 +1,118 @@
+.menuNavigation {
+  width: 18rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -30rem;
+  background-color: $white;
+  z-index: 20;
+  box-shadow: 0 0 10px rgba($color: $black, $alpha: 0.1);
+  padding: 2rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s cubic-bezier(455, 0.03, 0.515, 0.955);
+  -moz-transition: all 0.3s cubic-bezier(455, 0.03, 0.515, 0.955);
+  -ms-transition: all 0.3s cubic-bezier(455, 0.03, 0.515, 0.955);
+  -o-transition: all 0.3s cubic-bezier(455, 0.03, 0.515, 0.955);
+  @media screen and (min-width: $layout-breakpoint-x-small) {
+    width: 23rem;
+  }
+
+  &.open {
+    left: 0;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .minim {
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .menuX {
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $black;
+      cursor: pointer;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+
+      svg {
+        color: $white;
+        font-size: 0.75rem;
+      }
+    }
+  }
+  .menuDatas {
+    padding: 2rem 0;
+    user-select: none;
+
+    .dataGroup {
+      padding: 1rem 0;
+
+      .dataGroupName {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .rotate0 {
+          transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+        }
+        .rotate180 {
+          transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -o-transform: rotate(180deg);
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+        }
+      }
+      .dataItems {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          text-decoration: none;
+          padding: 0.5rem;
+          color: #df3b3b;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .callUs {
+    background-color: $black;
+    color: $white;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .openHours {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
