@@ -1,6 +1,6 @@
 import { HiMenuAlt4, HiOutlineShoppingCart } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
-import MenuNavigation from "./menuNavigation";
+import MenuNavigation from "./MenuNavigation";
 import { useEffect, useState } from "react";
 
 function Navbar() {
