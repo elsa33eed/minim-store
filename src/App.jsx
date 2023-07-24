@@ -5,7 +5,7 @@ import Home from "./Components/Container/Home";
 import PopularProduct from "./Components/Container/PopularProducts";
 import Review from "./Components/Container/Review";
 import ScrollToTop from "./Components/Container/ScrollToTop";
-import Shopping from "./Components/Container/shopping";
+import Shopping from "./Components/Container/Shopping";
 import Navbar from "./Components/Navbar/Navbar";
 import "./Sass/main.scss";
 
