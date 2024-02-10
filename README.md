@@ -6,7 +6,7 @@
 
   <ul>
     <li>The website will have a clean and modern design.</li>
-    <li>he website will be responsive, meaning it will look good on all devices, including desktops, laptops, tablets, and smartphones.</li>
+    <li>the website will be responsive, meaning it will look good on all devices, including desktops, laptops, tablets, and smartphones.</li>
     <li>The website will use React to create interactive and dynamic features, such as a shopping cart and a checkout process.</li>
     <li>The website will use Vite to make it easy to develop and deploy the application.</li>
     <li>The website will use a data file to store the furniture inventory.</li>
